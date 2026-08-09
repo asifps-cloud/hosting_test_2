@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: static-website
-        image: asifpsdocker/static-website:replaceImageTag
+        image: asifpsdocker/static-website-2:5
         ports:
         - containerPort: 80
         resources:
